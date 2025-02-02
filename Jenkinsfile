@@ -1,11 +1,6 @@
 pipeline {
    
    agent any
-   environment {
-        JAVA_HOME = "/var/lib/jenkins/tools/hudson.model.JDK/jdk_11/amazon-corretto-11.0.26.4.1-linux-x64/"
-        PATH = "${JAVA_HOME}/bin:${env.PATH}"
-    }
-
    tools {
       jdk 'jdk_11' // Use the name you configured for JDK 11 in the Jenkins tools configuration
       maven 'maven'
