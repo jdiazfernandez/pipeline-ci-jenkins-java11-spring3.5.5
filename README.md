@@ -8,4 +8,6 @@ En este laboratorio el alumno aprenderá los fundamentos de los pipelines de Jen
 para una aplicación Java con Spring Boot y Maven. Se conectará Github con Jenkins mediante *hooks* de forma que cada vez
 que se realice un commit en el repositorio se ejecute de forma automática el pipeline de Jenkins.
 
+Un cambio
+
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
